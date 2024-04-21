@@ -8,6 +8,7 @@ Author: jloh02
 nc challs.nusgreyhats.org 31113
 
 ### Explanation:
+This challenge is an exercise in socket programming and regular expressions.
 - The provided Python script connects to the server and receives data, which contains roots of polynomials.
 - It then calculates the coefficients of the polynomial using the received roots.
 - After calculating the coefficients, it sends the results back to the server.
